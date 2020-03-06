@@ -1,0 +1,40 @@
+{
+  "name": "redata",
+  "version": "0.0.0",
+  "description": "An immutable reactive data store with data relationship definitions for javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiranGopalakrishnan/redata.git"
+  },
+  "keywords": [
+    "data",
+    "relationship",
+    "data",
+    "store",
+    "immutable",
+    "reactive-data"
+  ],
+  "author": "Kiran Gopalakrishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KiranGopalakrishnan/redata/issues"
+  },
+  "homepage": "https://github.com/KiranGopalakrishnan/redata#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gts": "^1.1.2",
+    "typescript": "~3.7.0",
+    "@types/node": "^10.0.3"
+  }
+}
